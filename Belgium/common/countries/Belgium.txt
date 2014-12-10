@@ -1,0 +1,85 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 54  69  79 }
+
+historical_idea_groups = {
+	trade_ideas
+	quality_ideas
+	offensive_ideas
+	religious_ideas
+	exploration_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Leopold #3" = 120
+	"Baldwin #7" = 100
+	"Arnulf #3" = 90
+	"Robert #2" = 80
+	"Albert #2" = 80
+	"Erasme Louis Surlet #1" = 10
+	"Baudouin #1" = 10
+	"Phillipe #1" = 10
+	"Charles #1" = 10
+	"Margaret #2" = -1
+	"Mary #1" = -1
+	"Isabella #1" = -1
+}
+
+leader_names = {
+	d'Ambleteuse d'Aulnay
+	"de Beauharnais" "de Bercy" "de Béthune" "de Boissieu" "de Bonnefoy" "de Bonneuil" "du Bosquet" "de la Bretonnière" "de Broglie"
+	"de Castaing" "de Caumartin" "de Chambly" "de Chambronne" "de Champmartin" "de Chevigny" "des Coulons" "de Crèvecoeur" "de Crussol"
+	"de Dampierre" Desgouttes Duquesne
+	"des Ecures" d'Entraigues d'Estrées
+	"du Fournay"
+	"de Galard"
+	"des Herbiers"
+	"de La Barthe" "de La Ferrandie" "de La Galissonière" "de La Mothe" "de La Motte d'Airan" "de La Porte" "Le Tellier" "de Lhéry" "de Luynes"
+	"de Marguerye" "de Maurepas"
+	"de Neufchâtel"
+	"d'Ornano"
+	"de Pellefort"
+	"de Richemont" "de Rochechouart" "de Rochemaure" "de Rieu"
+	"de Saint Chamond" "de Saint Esprit" "de Saint Germain" "de Saint Omer" "de Siorac"
+	"de Tocqueville" "de la Tour d'Auvergne" "de Tréville"
+	"d'Usson"
+	"du Valentinois" "de Vergennes" "de Vibien" "de Vigny" "de Villeneuve"
+
+}
+
+ship_names = {
+	Neustadt Kaiserslautern Elmstein Landstuhl
+	Rhodt Deidesheim Hochspeyer Neunkirchen
+	Wolfstein Winnweiler
+}
+
+
+army_names = {
+	"Armée de $PROVINCE$" 
+}
+
+fleet_names = {
+	"Marine"
+}

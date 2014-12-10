@@ -1,0 +1,50 @@
+BEL_ideas = {
+
+	start = {
+		tolerance_own = 3
+		trade_efficiency = 0.10
+	}
+
+	bonus = {
+		production_efficiency = 0.15
+	}
+
+	trigger = {
+		tag = BEL
+	}
+
+	free = yes		#will be added at load.
+
+	battlefield_of_europe = {
+		defensiveness = 0.25
+	}
+
+	skirmishers = {
+		discipline = 0.15
+	}
+
+	nationalistic_fervor = {
+		land_morale = 0.2
+		naval_morale = 0.2
+	}
+
+	colonial_beginnings = {
+		colonists = 1
+	}
+
+	belgian_self_determination = {
+		global_revolt_risk = -2
+	}
+
+	bel_free_trade = {
+		add_mercantilism = -1
+		merchants = 1
+		relations_decay_of_me = 0.25
+
+	}
+
+	federalisation = {
+		diplomatic_upkeep = 2
+		diplomatic_reputation = 3
+	}
+}

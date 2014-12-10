@@ -1,0 +1,69 @@
+country_decisions = {
+	belgian_nation = {
+		major = yes
+		potential = {
+			BEL = { exists = no }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			OR = {
+				primary_culture = wallonian
+				primary_culture = flemish
+				primary_culture = burgundian
+			}
+		}
+		allow = {
+			adm_tech = 1
+			is_subject = no
+			is_at_war = no
+			owns = 1744 #Antwerpen
+			owns = 96 #Zeeland
+			owns = 93 #Liège
+			owns = 92 #Brabant
+			owns = 91 #Hainaut
+			owns = 90 #Vlaanderen
+			owns = 1865 #Ghent
+			owns = 1866 #Namur
+
+			is_core = 1744 #Antwerpen
+			is_core = 96 #Zeeland
+			is_core = 93 #Liège
+			is_core = 92 #Brabant
+			is_core = 91 #Hainaut
+			is_core = 90 #Vlaanderen
+			is_core = 1865 #Ghent
+			is_core = 1866 #Namur
+
+		}
+		effect = {
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+
+			add_prestige = 50
+			change_tag = BEL
+			swap_free_idea_group = yes
+			BEL = {
+				set_capital = 1744 # Antwerpen
+				change_government = constitutional_monarchy
+				if = {
+					limit = {
+						dominant_culture = flemish
+						NOT = { primary_culture = flemish }
+					}
+					change_primary_culture = flemish
+				}
+				if = {
+					limit = {
+						dominant_culture = wallonian
+						NOT = { primary_culture = wallonian }
+					}
+					change_primary_culture = wallonian
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
